@@ -1,0 +1,425 @@
+:root {
+  --main-background-color: #f5f5f5;
+  --main-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  /***** Enlaces *****/
+  color: #61dafb;
+}
+
+/****************************** HEADER **********************************/
+.App-header {
+  background-color: #ffd000;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.App-header-logo {
+  /* Layout Properties */
+  position: absolute;
+  left: -600px;
+  width: 1578px;
+  height: 55px;
+  opacity: 1;
+}
+
+.App-header-tabla-datos-perfil {
+  position: absolute;
+  vertical-align: middle;
+  right: 141px;
+}
+.App-header-datos-flecha {
+  position: relative;
+  top: 3px;
+}
+.App-header-datos-usuario {
+  font-size: 14px;
+  color: #000;
+  padding: 0 10px;
+}
+.App-header-datos-icono-perfil {
+  position: relative;
+  top: 3px;
+  height: 31.91px;
+  padding: 0 10px 0 0;
+}
+.App-header-datos-boton-cerrar-sesion {
+  width: 122px;
+  height: 36px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.registroHora1{
+  /* Layout Properties */
+width: 231px;
+height:50px;
+background-color: rgb(181, 246, 255);
+border: 181, 246, 255;
+/* UI Properties */
+font-size: 14px;
+  white-space: nowrap;
+  padding: 0 10px;
+opacity: 1;
+}
+
+#registroHora2{
+
+  /* Layout Properties */
+width: 500px;
+height: 50px;
+/* UI Properties */
+opacity: 1;
+}
+
+/****************************** BODY **********************************/
+.App-body-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: none;
+}
+
+.App-body-consulta-maleta {
+  width: 64px;
+  height: 64px;
+}
+
+.App-body-table-titulos {
+  /* Layout Properties */
+  /* width: 401px;
+height: 29px;
+/* UI Properties */
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-1e1045);
+  letter-spacing: 0px;
+  color: #1e1045;
+}
+
+.App-body-table-titulos-texto-2{
+
+  /* Layout Properties */
+width: 694px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+margin-top:-5px ;
+/* UI Properties */
+text-align: left;
+letter-spacing: 0px;
+color: #343741;
+opacity: 1;
+}
+.App-body-table-titulos-texto {
+  border: 1px solid #dddddd;
+  box-shadow: 0px 3px 0px #c0bfc0;
+  background-color: rgb(195, 247, 247);
+}
+.App-body-table-titulos-buscador {
+  background-color: rgb(195, 247, 247);
+  width: 50px;
+  box-shadow: 0px 3px 0px #c0bfc0;
+  border-radius: 0 5px 5px 0;
+}
+.App-body-table-titulos-buscador-lupa {
+  position: relative;
+  top: 3px;
+}
+
+.App-body-table-titulos-buscador-contenedor2{
+ /* Layout Properties */
+margin-left: auto;
+margin-right: auto;
+width: 1181px;
+height: 119.32px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 4px #00000040;
+opacity: 1;
+}
+
+/* tablilla numero 1 */
+.App-body-table-titulos-cedula{
+  position: relative;
+  align-items: center;
+  top: -43px;
+}
+.App-body-tablaX2-tablilla1-identidad{
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+  top: 5px;
+  text-align: left;
+  color: #565656;
+  height: 19px;
+  font-weight:bold;
+  font-size: 14px;
+  opacity: 1;
+}
+.App-body-tablaX2-tablilla1-numero{
+  position: relative;
+  top: -10px;
+  text-align: left;
+  color: #1A1446;
+  height: 19px;
+  font-weight:bold;
+  font-size: 18px;
+  opacity: 1;
+}
+.App-body-tablaX2-tablilla1-CCiudadania{
+  position: relative;
+  top: -32px;
+  text-align: left;
+  color: #1A1446;
+  font-weight:bold;
+  font-size: 14px;
+  opacity: 1;
+}
+/* tablilla numero 2 */
+.App-body-table-titulos-IconUser{
+  position: relative;
+  top: -43px;
+  width: 24px;
+  height: 24px;
+}
+.App-body-tablaX2-tablilla2-Tomador{
+  position: relative;
+  font-family:Arial, Helvetica, sans-serif;
+  top: -26px;
+  text-align: left;
+  color: #565656;
+  height: 19px;
+  font-weight:bold;
+  font-size: 14px;
+  opacity: 1;
+}
+.App-body-tablaX2-tablilla2-PST{
+  color: #1A1446;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 201px;
+  text-align: left ;
+  position: relative;
+  top: -35px;
+  white-space: nowrap;
+}
+/* tablilla numero 3 */
+.App-body-table-titulos-car{
+  position: relative;
+  top: -40px;
+}
+.App-body-tablaX2-tablilla3-No_riesgos{
+  position: relative;
+  top: -2px;
+  color: #565656;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.App-body-tablaX2-tablilla3-Vigentes{
+  position: relative;
+  color: #008040;
+  top: -15px;
+  text-align: left;
+}
+.App-body-tablaX2-tablilla3-Anulados{
+  position: relative;
+  color: #D32F2F;
+  top: -35px;
+  text-align: left;
+}
+/* Tablilla numero 4 */
+.App-body-table-titulos-escudo{
+  position: relative;
+  top: -39px;
+}
+.App-body-tablaX2-tablilla4-No_poliza{
+  position: relative;
+  top: -22px;
+  color: #565656;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.App-body-tablaX2-tablilla4-57322{
+  position: relative;
+  top: -44px;
+  color: #1A1446;
+  height: 19px;
+  text-align: left;
+}
+/* tablilla mumero 5 */
+.App-body-tablaX2-tablilla5-Estado{
+  color: #565656;
+  position: relative;
+  top: -28px;
+  text-align: left;
+}
+.App-body-tablaX2-tablilla5-vigente{
+  color: #FFFFFF;
+  background-color: #008040;
+  position: relative;
+  top: -40px;
+  border-radius: 5px;
+}
+/* tablilla numero 6 */
+.App-body-tablaX2-tablilla5-boton{
+  position: relative;
+  color: #1A1446;
+  border-color: #8c8e9666;
+  background-color: rgb(195, 247, 247);
+  top: -30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 232px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 2px #1C0E85;
+}
+/****************************** BODY **********************************/
+
+.App-body {
+  width: 100%;
+  height: 721px;
+  /* UI Properties */
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.App-body-Gestion{
+  color: #28A3AF;
+
+}
+
+.App-body-migas-pan {
+  position: relative;
+  left: 140px;
+}
+
+.App-body-resultados {
+  /* Layout Properties */
+  position: absolute;
+  width: 100%;
+  height: 470px;
+  /* UI Properties */
+  background: var(--unnamed-color-e6e6e666) 0% 0% no-repeat padding-box;
+  background: #e6e6e666 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.App-body-table-resultados {
+  margin-bottom: 1128px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4px solid rgb(247, 149, 2);
+  width: 584px;
+  height: 92px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #00000040;
+  border-radius: 3px;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.App-body-resultados-titulo {
+ margin-top: 39px;
+ 
+ color: #1e1045;
+ opacity: 1;
+}
+
+.App-body-resultados-buscador {
+  /* Layout Properties */
+  align-items: center;
+  width: 884px;
+  height: 92px;
+  /* UI Properties */
+  border-radius: 3px;
+  opacity: 1;
+}
+.App-body-table-titulos-mira{
+/* Layout Properties */
+top: 522px;
+left: 468px;
+width: 44px;
+opacity: 1;
+
+}
+
+.App-body-resultados-numero {
+  /* Layout Properties */
+  width: 45px;
+  height: 48px;
+  margin-right: -455px;
+  /* UI Properties */
+  letter-spacing: 0px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1e1045;
+  opacity: 1;
+}
+
+.App-body-resultados-texto{
+/* Layout Properties */
+padding: 12px 140px 12px 40px;
+white-space: nowrap;
+color: #1e1045;
+margin-right: 50px;
+}
+
+.App-body-resultados-ver-polizas {
+  /* Layout Properties */
+  width: 104px;
+  height: 36px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-1a1446);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 0px #c0bfc0;
+  border: 1px solid #1a1446;
+  border-radius: 5px;
+  margin-right: 50px;
+  opacity: 1;
+}
+
+.App-body-resultados-ver-polizas-hr {
+  /* border: 14px solid black; */
+  margin-top: 350.5px;
+  width: 1183px;
+  margin-bottom: -15px;
+}
+
+.App-body-resultados-ver-polizas-hr-liberty{
+  /* Layout Properties */
+width: 1940px;
+height: 17px;
+margin-bottom: -210px;
+/* UI Properties */
+font-style:normal; 
+font-weight:normal;
+font-size:14px;
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-808080);
+letter-spacing: 0px;
+color: #808080;
+opacity: 1;
+}
+
+.A {
+  /* Layout Properties */
+  width: 584px;
+  height: 92px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #00000040;
+  border-radius: 3px;
+  opacity: 1;
+}

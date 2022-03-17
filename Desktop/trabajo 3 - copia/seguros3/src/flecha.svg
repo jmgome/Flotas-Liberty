@@ -1,0 +1,16 @@
+<svg id="Icons_Back_circle" data-name="Icons/Back circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,6.875,6.753,13.75l.842-.827L1.656,6.875,7.6.826,6.753,0Z" transform="translate(0 7.596) rotate(-90)" fill="#1a1446"/>
+    </clipPath>
+  </defs>
+  <rect id="Icons_Arrow_down_background" data-name="Icons/Arrow down background" width="15" height="15" fill="none"/>
+  <g id="Grupo_2" data-name="Grupo 2" transform="translate(0.673 3.702)">
+    <path id="Mask-2" data-name="Mask" d="M0,6.875,6.753,13.75l.842-.827L1.656,6.875,7.6.826,6.753,0Z" transform="translate(0 7.596) rotate(-90)" fill="#1a1446"/>
+    <g id="Enmascarar_grupo_2" data-name="Enmascarar grupo 2" clip-path="url(#clip-path)">
+      <g id="Color_Liberty_Blue" data-name="Color/Liberty Blue" transform="translate(-24.423 -27.452)">
+        <rect id="Rectangle" width="62.5" height="62.5" fill="#1a1446"/>
+      </g>
+    </g>
+  </g>
+</svg>
